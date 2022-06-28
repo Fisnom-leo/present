@@ -52,6 +52,7 @@ section {
     font-size: 1.4em;
     font-weight: 500;
     
+    
 
     }
 
@@ -60,14 +61,19 @@ section {
     font-size: 2.1em;
     font-weight: 500;
     display: inline-block;
+   
 }
-.main h3 {
+.main h3  {
     color: rgb(239, 243, 240);
     font-size: 2em;
     font-weight: 700;
     letter-spacing: 1px;
     margin-top: 10px;
     margin-bottom: 30px;
+    
+}
+a {
+    text-decoration: none;
 }
 .fa-facebook{
     color: #1877F2;
@@ -106,9 +112,10 @@ section {
     display: flex;
     justify-content: center;
     color: chocolate;
-    font-size: 2.2em;
+    font-size: 2.2em;text-decoration: underline rgba(172, 130, 53, 0.525);
     font-weight: 800;
     margin-bottom: 30px;
+    
 }
 .contents {
     display: flex;
@@ -204,8 +211,9 @@ section {
         font-size: 1.3em;
         font-weight: 600;
     }
-    .footer-title span{
+    .footer-title a{
         color: rgb(8, 7, 5);
+        text-decoration: none;
     }
     .footer .socila-icons a{
 font-size: 1.3em;
